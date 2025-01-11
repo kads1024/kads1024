@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 align="left">Hi 👋! My name is Kenneth and I'm a Game Developer from the Philippines</h2>
 
 ###
 
@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgur.com/owHYTjw.gif"  />
+<img align="right" height="150" src="[https://i.imgur.com/owHYTjw.gif](https://i.imgur.com/sP5JxbI.gif)"  />
 
 ###
 
