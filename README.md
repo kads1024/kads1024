@@ -1,15 +1,3 @@
-<!--
-  =========================================================================
-  KENNETH'S GITHUB PROFILE README
-  Repo: github.com/kads1024/kads1024
-  -------------------------------------------------------------------------
-  TODO before publishing (search for "TODO:"):
-    1. Replace the Featured Projects table with your real repos
-    2. Fill in your LinkedIn / portfolio / email / itch.io links at the bottom
-    3. Update the "Currently" section
-  =========================================================================
--->
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Kenneth&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Gameplay%20%26%20Systems%20Programmer&descAlignY=55&descSize=18" width="100%" alt="header" />
 </div>
@@ -48,11 +36,10 @@ struct Engineer {
 };
 ```
 
-<!-- TODO: keep this section current — it's the first thing a recruiter actually reads -->
 ### 🚀 Currently
 
-- 🔭 Building &nbsp;→&nbsp; **[Project Name](#)** — one line on what it is and what's hard about it
-- 🌱 Learning &nbsp;→&nbsp; graphics programming, multithreaded systems, and engine internals
+- 🔭 Building &nbsp;→&nbsp; **NDA(#)** — one line on what it is and what's hard about it
+- 🌱 Learning &nbsp;→&nbsp; graphics programming, multithreaded systems, engine internals, and advance gameplay networking
 - 🎯 Looking for &nbsp;→&nbsp; **gameplay, engine, tools, or backend engineering roles** (remote-friendly)
 - 💬 Ask me about &nbsp;→&nbsp; ECS, gameplay architecture, editor tooling, or shipping under a frame budget
 
@@ -112,9 +99,6 @@ struct Engineer {
 
 ## 📌 Featured Projects
 
-<!-- TODO: Replace with your real repos. Three strong entries beat ten weak ones.
-     For each one, lead with the ENGINEERING problem, not the genre. -->
-
 | Project | What It Is | Tech |
 |:--|:--|:--|
 | **[Project One](https://github.com/kads1024)** | What it does, and the hardest technical problem you solved in it | `C++` `OpenGL` |
@@ -154,19 +138,17 @@ struct Engineer {
 
 ## 🤝 Let's Connect
 
-<!-- TODO: swap in your real URLs — delete any badge you don't use -->
-
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR-HANDLE">
+  <a href="https://www.linkedin.com/in/ken-santos/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://YOUR-PORTFOLIO.com">
+  <a href="https://portfolio-wizard-theta.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-BD93F9?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://YOUR-HANDLE.itch.io">
+  <a href="https://kennysans37.itch.io">
     <img src="https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io" />
   </a>
-  <a href="mailto:YOUR@EMAIL.com">
+  <a href="mailto:kennethamiel.santos@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
