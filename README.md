@@ -1,26 +1,26 @@
-<h1 align="center">Kenneth [Last Name]</h1>
+<h1 align="center">Kenneth Amiel Santos</h1>
 
 <p align="center">
-  <b>Gameplay Programmer</b> · Unity & Unreal · Manila, Philippines 🇵🇭
+  <b>Gameplay Programmer</b> · Unity & Unreal · Pasig City, Philippines 🇵🇭
 </p>
 
 <p align="center">
-  <a href="https://YOUR-PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-1a1b27?style=for-the-badge&logo=itch.io&logoColor=ff5da2" alt="Portfolio" /></a>
-  <a href="https://YOURNAME.itch.io"><img src="https://img.shields.io/badge/itch.io-1a1b27?style=for-the-badge&logo=itch.io&logoColor=fa5c5c" alt="itch.io" /></a>
-  <a href="https://linkedin.com/in/YOURHANDLE"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=6ab7ff" alt="LinkedIn" /></a>
-  <a href="mailto:YOU@email.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=ff9e64" alt="Email" /></a>
-  <a href="https://link-to-your-resume.pdf"><img src="https://img.shields.io/badge/Résumé-1a1b27?style=for-the-badge&logo=readdotcv&logoColor=9ece6a" alt="Resume" /></a>
+  <a href="https://portfolio-wizard-theta.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1a1b27?style=for-the-badge&logo=itch.io&logoColor=ff5da2" alt="Portfolio" /></a>
+  <a href="https://kennysans37.itch.io"><img src="https://img.shields.io/badge/itch.io-1a1b27?style=for-the-badge&logo=itch.io&logoColor=fa5c5c" alt="itch.io" /></a>
+  <a href="https://www.linkedin.com/in/ken-santos/"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=6ab7ff" alt="LinkedIn" /></a>
+  <a href="mailto:kennethamiel.santos@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=ff9e64" alt="Email" /></a>
+  <a href="https://docs.google.com/document/d/1VHzxXmj7OoTzdLc-buaibP6QdkLtYBwDfUxe4EaiS8Q/edit?usp=sharing"><img src="https://img.shields.io/badge/Résumé-1a1b27?style=for-the-badge&logo=readdotcv&logoColor=9ece6a" alt="Resume" /></a>
 </p>
 
 ---
 
-I build **[gameplay systems / combat / AI / tools — pick one]** in Unity and Unreal. Most of my work lives in the messy middle of a game: state machines that don't break when designers touch them, feel-good player controllers, and editor tools that save the team hours.
+I build **Gameplay Systems** in Unity and Unreal. Most of my work lives in the messy middle of a game: state machines that don't break when designers touch them, feel-good player controllers, and editor tools that save the team hours.
 
-- 🎮 Currently building **[Project Name]** — [one line on what it is]
+- 🎮 Currently building **NDA**
 - 🔧 Deepest in: **C#, C++, Unity, Unreal Engine 5**
-- 🌱 Learning: **[e.g. ECS/DOTS, gameplay networking, shader graph]**
+- 🌱 Learning: **Graphics Programming, and Advance gameplay networking]**
 - 💼 **Open to gameplay programming roles** (remote / hybrid Metro Manila)
-- 📫 Reach me at **[you@email.com]**
+- 📫 Reach me at **[kennethamiel.santos@gmail.com]**
 
 ---
 
