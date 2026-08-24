@@ -38,10 +38,95 @@ struct Engineer {
 
 ### 🚀 Currently
 
-- 🔭 Building &nbsp;→&nbsp; **NDA(#)** — one line on what it is and what's hard about it
-- 🌱 Learning &nbsp;→&nbsp; graphics programming, multithreaded systems, engine internals, and advance gameplay networking
+- 🔭 Building &nbsp;→&nbsp; an unannounced title under NDA — real-time multiplayer systems work
+- 🌱 Learning &nbsp;→&nbsp; graphics programming, multithreaded systems, engine internals, and advanced gameplay networking
 - 🎯 Looking for &nbsp;→&nbsp; **gameplay, engine, tools, or backend engineering roles** (remote-friendly)
 - 💬 Ask me about &nbsp;→&nbsp; ECS, gameplay architecture, editor tooling, or shipping under a frame budget
+
+---
+
+## 🎮 Selected Work
+
+<!-- =====================================================================
+     TODO — THIS IS THE MOST IMPORTANT SECTION ON THE PAGE.
+     A hiring manager decides here. Rules:
+       1. Add a GIF for each. Motion beats text every single time.
+       2. Lead with the ENGINEERING problem, not the genre or story.
+       3. Quantify results wherever you honestly can (ms, MB, FPS, %, players).
+       4. Three excellent entries beat six mediocre ones. Delete the rest.
+     Put GIFs in assets/projects/ and keep each under ~5MB so they load fast.
+     ===================================================================== -->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔹 [Project One](https://github.com/kads1024)
+
+<img src="./assets/projects/project-one.gif" width="100%" alt="Project One demo" />
+
+**Problem** — the technical constraint you were up against
+**Built** — the system you designed and why that approach
+**Result** — *"cut frame time from 18ms to 9ms"* beats *"optimized performance"*
+
+`C++` &nbsp;`OpenGL` &nbsp;`Custom Engine`
+
+<a href="https://github.com/kads1024">Code</a> · <a href="https://kennysans37.itch.io">Play</a> · <a href="#">Devlog</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔹 [Project Two](https://github.com/kads1024)
+
+<img src="./assets/projects/project-two.gif" width="100%" alt="Project Two demo" />
+
+**Problem** — what was hard about it
+**Built** — architecture decisions, trade-offs you made
+**Result** — measurable outcome, or what shipping taught you
+
+`C#` &nbsp;`Unity` &nbsp;`ECS`
+
+<a href="https://github.com/kads1024">Code</a> · <a href="https://kennysans37.itch.io">Play</a> · <a href="#">Devlog</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔹 [Project Three](https://github.com/kads1024)
+
+<img src="./assets/projects/project-three.gif" width="100%" alt="Project Three demo" />
+
+**Problem** — the pain point, ideally one a team actually felt
+**Built** — the tool, plugin, or library
+**Result** — hours saved, bugs prevented, people who used it
+
+`C++` &nbsp;`Unreal Engine` &nbsp;`Editor Tooling`
+
+<a href="https://github.com/kads1024">Code</a> · <a href="#">Docs</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 More Work
+
+Playable builds, jam entries, and prototypes live on itch.io — several are downloadable and take under a minute to try.
+
+<a href="https://kennysans37.itch.io">
+  <img src="https://img.shields.io/badge/Browse%20playable%20builds-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io" />
+</a>
+
+<br /><br />
+
+Full case studies with breakdowns of the systems behind each project:
+
+<a href="https://portfolio-wizard-theta.vercel.app/">
+  <img src="https://img.shields.io/badge/Read%20the%20case%20studies-BD93F9?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -91,44 +176,19 @@ struct Engineer {
 |:--|:--|
 | **Systems Architecture** | Component/ECS design, decoupled subsystems, data-oriented layouts that scale past the prototype |
 | **Performance** | Profile first, then fix: allocation churn, cache misses, draw calls, GC pressure |
+| **Gameplay Networking** | Client prediction, server reconciliation, state replication, lag compensation |
 | **Tooling** | Custom editors and inspectors, build automation, pipelines that save the team hours |
 | **Low-Level C++** | RAII, move semantics, smart pointers, templates — and knowing when *not* to reach for them |
 | **Cross-Discipline** | Turning design intent into maintainable systems, shipping alongside artists and designers |
 
 ---
 
-## 📌 Featured Projects
-
-| Project | What It Is | Tech |
-|:--|:--|:--|
-| **[Project One](https://github.com/kads1024)** | What it does, and the hardest technical problem you solved in it | `C++` `OpenGL` |
-| **[Project Two](https://github.com/kads1024)** | The systems you designed — add a measurable result if you have one | `C#` `Unity` |
-| **[Project Three](https://github.com/kads1024)** | A tool or library you built, and who it helped | `C++` `Unreal` |
-
-> 💡 **Note to future you:** pin these same repos on your profile, and give each one a README with a GIF or screenshot at the top. Recruiters spend seconds, not minutes.
-
----
-
-## 📊 GitHub Analytics
+## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kads1024&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=dracula&bg_color=00000000&title_color=BD93F9&icon_color=FF79C6&text_color=F8F8F2&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kads1024&layout=compact&langs_count=8&card_width=320&hide_border=true&theme=dracula&bg_color=00000000&title_color=BD93F9&text_color=F8F8F2" height="165" alt="Top languages" />
+  <img src="https://github-readme-stats-omega-jet-44.vercel.app/api?username=kads1024&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=dracula&bg_color=00000000&title_color=BD93F9&icon_color=FF79C6&text_color=F8F8F2&rank_icon=github" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats-omega-jet-44.vercel.app/api/top-langs?username=kads1024&layout=compact&langs_count=8&card_width=320&hide_border=true&theme=dracula&bg_color=00000000&title_color=BD93F9&text_color=F8F8F2" height="165" alt="Top languages" />
 </div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kads1024&hide_border=true&theme=dracula&background=00000000&ring=BD93F9&fire=FF79C6&currStreakLabel=BD93F9" height="165" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kads1024&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kads1024&theme=dracula&bg_color=00000000&color=F8F8F2&line=BD93F9&point=FF79C6&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
-</div>
-
----
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/kads1024/kads1024/output/snake.svg" alt="Snake animation eating my contributions" width="100%" />
@@ -137,6 +197,8 @@ struct Engineer {
 ---
 
 ## 🤝 Let's Connect
+
+I'm open to conversations about gameplay, engine, tools, and backend roles — and I answer every message.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/ken-santos/">
@@ -160,5 +222,5 @@ struct Engineer {
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="footer" />
+  <img src="./assets/footer.svg" width="100%" alt="" />
 </div>

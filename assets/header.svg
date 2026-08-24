@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Kenneth — Software Engineer, Gameplay and Systems Programmer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1F29"/>
+      <stop offset="55%" stop-color="#282A36"/>
+      <stop offset="100%" stop-color="#343746"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#BD93F9"/>
+      <stop offset="50%" stop-color="#FF79C6"/>
+      <stop offset="100%" stop-color="#8BE9FD"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F8F8F2"/>
+      <stop offset="100%" stop-color="#BD93F9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#44475A" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="220" fill="url(#bg)"/>
+  <rect width="1000" height="220" fill="url(#grid)"/>
+
+  <circle cx="880" cy="55" r="120" fill="#BD93F9" opacity="0.07"/>
+  <circle cx="940" cy="190" r="90" fill="#FF79C6" opacity="0.06"/>
+
+  <rect x="0" y="0" width="6" height="220" fill="url(#accent)"/>
+
+  <text x="56" y="88" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="url(#nameFill)" letter-spacing="1">Kenneth</text>
+
+  <rect x="58" y="106" width="72" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="56" y="140" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#F8F8F2" opacity="0.92">Software Engineer</text>
+  <text x="222" y="140" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#6272A4">|</text>
+  <text x="242" y="140" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#8BE9FD" opacity="0.9">Gameplay &amp; Systems Programmer</text>
+
+  <text x="56" y="180" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Courier New', monospace" font-size="15" fill="#8BE9FD" opacity="0.85">
+    <tspan>C++ &#183; C# &#183; Unity &#183; Unreal Engine &#183; Philippines</tspan>
+    <animate attributeName="opacity" values="0.85;0.85;0;0" keyTimes="0;0.28;0.33;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="56" y="180" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Courier New', monospace" font-size="15" fill="#50FA7B" opacity="0">
+    <tspan>Gameplay &#183; Engine &#183; Tools &#183; Graphics programming</tspan>
+    <animate attributeName="opacity" values="0;0;0.85;0.85;0;0" keyTimes="0;0.33;0.36;0.61;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="56" y="180" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Courier New', monospace" font-size="15" fill="#FFB86C" opacity="0">
+    <tspan>Systems-first thinking &#183; profile before you optimize</tspan>
+    <animate attributeName="opacity" values="0;0;0.85;0.85;0" keyTimes="0;0.66;0.69;0.94;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+
+  <g opacity="0.5">
+    <rect x="740" y="150" width="42" height="8" rx="4" fill="#50FA7B"/>
+    <rect x="792" y="150" width="26" height="8" rx="4" fill="#FFB86C"/>
+    <rect x="828" y="150" width="60" height="8" rx="4" fill="#BD93F9"/>
+    <rect x="898" y="150" width="34" height="8" rx="4" fill="#FF79C6"/>
+  </g>
+</svg>
