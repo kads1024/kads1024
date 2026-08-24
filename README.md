@@ -151,6 +151,7 @@ Full case studies with breakdowns of the systems behind each project:
   <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" />
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
   <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL" />
+  <img src="https://img.shields.io/badge/Vulkan-AE0F28?style=for-the-badge&logo=opengl&logoColor=white" alt="Vulkan" />
   <img src="https://img.shields.io/badge/SDL-1D1D1D?style=for-the-badge&logo=libsdl&logoColor=white" alt="SDL" />
 </p>
 
@@ -165,8 +166,6 @@ Full case studies with breakdowns of the systems behind each project:
   <img src="https://img.shields.io/badge/Perforce-404040?style=for-the-badge&logo=perforce&logoColor=white" alt="Perforce" />
   <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
 </p>
-
-<sub>Trim anything above you wouldn't want to be interviewed on — an honest stack reads far stronger than an exhaustive one.</sub>
 
 ---
 
