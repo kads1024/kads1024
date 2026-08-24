@@ -18,7 +18,7 @@
 
 ## 👋 About Me
 
-I'm a software engineer who builds **real-time, performance-sensitive systems**. Games are where I sharpened that skill set — tight frame budgets, cache-friendly data layouts, and manual memory management leave very little room to be sloppy — but the engineering underneath travels well beyond them.
+I'm a software engineer who builds **real-time, performance-sensitive systems**. Games are where I started to sharpened that skill set (tight frame budgets, cache-friendly data layouts, and manual memory management leave very little room to be sloppy), but the engineering underneath travels well beyond them.
 
 I work primarily in **C++** and **C#**, across **Unity**, **Unreal Engine**, and hand-rolled codebases. I care about clean architecture, readable code that survives contact with a team, and profiling before optimizing.
 
@@ -38,9 +38,9 @@ struct Engineer {
 
 ### 🚀 Currently
 
-- 🔭 Building &nbsp;→&nbsp; an unannounced title under NDA — real-time multiplayer systems work
+- 🔭 Building &nbsp;→&nbsp; an unannounced title under NDA: real-time multiplayer systems work
 - 🌱 Learning &nbsp;→&nbsp; graphics programming, multithreaded systems, engine internals, and advanced gameplay networking
-- 🎯 Looking for &nbsp;→&nbsp; **gameplay, engine, tools, or backend engineering roles** (remote-friendly)
+- 🎯 Looking for &nbsp;→&nbsp; **gameplay, engine, tools, or software engineering roles** (remote-friendly)
 - 💬 Ask me about &nbsp;→&nbsp; ECS, gameplay architecture, editor tooling, or shipping under a frame budget
 
 ---
@@ -61,32 +61,32 @@ struct Engineer {
 <tr>
 <td width="50%" valign="top">
 
-### 🔹 [Project One](https://github.com/kads1024)
+### 🔹 [Basic Raytracer](https://github.com/kads1024/mini-raytracer)
 
-<img src="./assets/projects/project-one.gif" width="100%" alt="Project One demo" />
+<img src="./assets/projects/raytracer.png" width="100%" alt="Basic Raytracer demo" />
 
-**Problem** — the technical constraint you were up against
-**Built** — the system you designed and why that approach
-**Result** — *"cut frame time from 18ms to 9ms"* beats *"optimized performance"*
+**Problem**: Implementing a raytracer from intuition
+**Built**: Minimal raytracer with no third-party library
+**Result**: Rendered Basic spheres with lighting, shadows, reflection, and refraction. 
 
-`C++` &nbsp;`OpenGL` &nbsp;`Custom Engine`
+`C++`
 
-<a href="https://github.com/kads1024">Code</a> · <a href="https://kennysans37.itch.io">Play</a> · <a href="#">Devlog</a>
+<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="#">Devlog</a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔹 [Project Two](https://github.com/kads1024)
+### 🔹 [Basic Raymarcher](https://github.com/kads1024/mini-raymarcher)
 
-<img src="./assets/projects/project-two.gif" width="100%" alt="Project Two demo" />
+<img src="./assets/projects/raymarcher.png" width="100%" alt="Basic Raymarcher](" />
 
-**Problem** — what was hard about it
-**Built** — architecture decisions, trade-offs you made
-**Result** — measurable outcome, or what shipping taught you
+**Problem**: Implementing a raymarching demo from intuition
+**Built**: Minimal raymarcher with no third-party library
+**Result**: Rendered basic explosion using raymarching algorithm. 
 
-`C#` &nbsp;`Unity` &nbsp;`ECS`
+`C++`
 
-<a href="https://github.com/kads1024">Code</a> · <a href="https://kennysans37.itch.io">Play</a> · <a href="#">Devlog</a>
+<a href="https://github.com/kads1024/mini-raymarcher">Code</a> · <a href="#">Devlog</a>
 
 </td>
 </tr>
