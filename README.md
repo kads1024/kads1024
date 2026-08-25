@@ -77,17 +77,18 @@ struct Engineer {
 </td>
 <td width="50%" valign="top">
 
-### 🔹 [Basic Raymarcher](https://github.com/kads1024/mini-raymarcher)
+### 🔹 [Procedural Explosion Raymarcher (C++20)](https://github.com/kads1024/mini-raymarcher)
 
-<img src="./assets/projects/raymarcher.png" width="100%" alt="Basic Raymarcher](" />
+<img src="./assets/projects/raymarcher.png" width="100%" alt="Raymarcher render: a procedural explosion of fire and smoke generated from a single signed distance function" />
 
-**Problem**: Implementing a raymarching demo from intuition
-**Built**: Minimal raymarcher with no third-party library
-**Result**: Rendered basic explosion using raymarching algorithm. 
+**Problem**: Account for every line of 180 lines of terse C++ written by someone else — the skill tutorials never teach.<br />
+**Built**: Sphere-traced SDF renderer reconstructed line by line from ssloy's tinykaboom, on the same templated vector library as the raytracer, with every formula left unevaluated and every constant justified.<br />
+**Result**: A procedural explosion at 640×480 with no meshes, no triangles, no acceleration structure — the entire scene is one 11-line distance function shaded from fBm value noise.<br />
+**Notable**: My vector library refused to compile the original's "smoothstep" line, which turned out to be a dot product in disguise; measuring the fallout showed ~60% of the noise function's interpolation weights clamp out of range, which is exactly what produces its signature texture.
 
 `C++`
 
-<a href="https://github.com/kads1024/mini-raymarcher">Code</a> · <a href="#">Devlog</a>
+<a href="https://github.com/kads1024/mini-raymarcher">Code</a> · <a href="https://kads1024.github.io/devlog/rendering-an-explosion-with-one-function"><b>Devlog</b></a>
 
 </td>
 </tr>
