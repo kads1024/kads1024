@@ -71,7 +71,7 @@ struct Engineer {
 
 `C++`
 
-<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="#">Devlog</a>
+<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="https://kads1024.github.io/devlog/building-a-cpu-raytracer-from-scratch-in-c++20">Devlog</a>
 
 </td>
 <td width="50%" valign="top">
