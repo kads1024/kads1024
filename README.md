@@ -65,9 +65,10 @@ struct Engineer {
 
 <img src="./assets/projects/raytracer.png" width="100%" alt="Basic Raytracer demo" />
 
-**Problem**: Implementing a raytracer from intuition
-**Built**: Minimal raytracer with no third-party library
-**Result**: Rendered Basic spheres with lighting, shadows, reflection, and refraction. 
+**Problem**: Understand raytracing well enough to derive it, not just make it compile.
+**Built**: ~350-line CPU raytracer in C++20, with no third-party libraries, on a templated N-dimensional vector library built with concepts.
+**Result**: Diffuse and specular shading, hard shadows, recursive reflection and refraction at 1024×768. Renders in 105ms single-threaded.
+**Notable**: Refraction derived from vector decomposition rather than copied, so total internal reflection emerges from the math instead of being special-cased.
 
 `C++`
 
