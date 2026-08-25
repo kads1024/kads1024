@@ -61,18 +61,18 @@ struct Engineer {
 <tr>
 <td width="50%" valign="top">
 
-### 🔹 [Basic Raytracer](https://github.com/kads1024/mini-raytracer)
+### 🔹 [CPU Raytracer (C++20)](https://github.com/kads1024/mini-raytracer)
 
-<img src="./assets/projects/raytracer.png" width="100%" alt="Basic Raytracer demo" />
+<img src="./assets/projects/raytracer.png" width="100%" alt="Raytracer render: four spheres with reflection and refraction over a checkerboard plane" />
 
-**Problem**: Understand raytracing well enough to derive it, not just make it compile.
-**Built**: ~350-line CPU raytracer in C++20, with no third-party libraries, on a templated N-dimensional vector library built with concepts.
-**Result**: Diffuse and specular shading, hard shadows, recursive reflection and refraction at 1024×768. Renders in 105ms single-threaded.
+**Problem**: Understand raytracing well enough to derive it, not just make it compile.<br />
+**Built**: ~350-line CPU raytracer in C++20, no third-party libraries, on a templated N-dimensional vector library built with concepts.<br />
+**Result**: Diffuse and specular shading, hard shadows, recursive reflection and refraction at 1024×768.<br />
 **Notable**: Refraction derived from vector decomposition rather than copied, so total internal reflection emerges from the math instead of being special-cased.
 
 `C++`
 
-<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="https://kads1024.github.io/devlog/building-a-cpu-raytracer-from-scratch-in-c++20">Devlog</a>
+<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="https://kads1024.github.io/devlog/building-a-cpu-raytracer-from-scratch-in-c++20"><b>Devlog</b></a>
 
 </td>
 <td width="50%" valign="top">
