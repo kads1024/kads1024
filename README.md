@@ -81,10 +81,10 @@ struct Engineer {
 
 <img src="./assets/projects/raymarcher.png" width="100%" alt="Raymarcher render: a procedural explosion of fire and smoke generated from a single signed distance function" />
 
-**Problem**: Account for every line of 180 lines of terse C++ written by someone else, the skill tutorials never teach.<br />
+**Problem**: Account for every line of 180 lines of someone else's terse C++ (the skill tutorials never teach).<br />
 **Built**: Sphere-traced SDF renderer reconstructed line by line from ssloy's tinykaboom, on the same templated vector library as the raytracer, with every formula left unevaluated and every constant justified.<br />
 **Result**: A procedural explosion at 640×480 with no meshes, no triangles, no acceleration structure. The entire scene is one 11-line distance function shaded from fBm value noise.<br />
-**Notable**: My vector library refused to compile the original's "smooth step" line, which turned out to be a dot product in disguise; measuring the fallout showed ~60% of the noise function's interpolation weights clamp out of range, which is exactly what produces its signature texture.
+**Notable**: My vector library refused to compile the original's "smooth step" line, it turned out to be a dot product in disguise. Measuring the fallout showed ~60% of the noise function's interpolation weights clamp out of range, which is exactly what produces its signature texture.
 
 `C++`
 
@@ -95,17 +95,18 @@ struct Engineer {
 <tr>
 <td width="50%" valign="top">
 
-### 🔹 [Project Three](https://github.com/kads1024)
+### 🔹 [Real-Time Raycaster (C++ / SDL3)](https://github.com/kads1024/mini-raycaster)
 
-<img src="./assets/projects/project-three.gif" width="100%" alt="Project Three demo" />
+<img src="./assets/projects/raycaster.gif" width="100%" alt="Raycaster demo: a textured maze rendered in first person beside a top-down map, the camera turning a full circle while the ray fan sweeps across the map" />
 
-**Problem** — the pain point, ideally one a team actually felt
-**Built** — the tool, plugin, or library
-**Result** — hours saved, bugs prevented, people who used it
+**Problem**: Move from offline renders that take their time to something that has to hold a frame budget and answer to input.<br />
+**Built**: ~550-line real-time raycaster in C++ on SDL3. Ray-marched textured walls, billboard sprites, and a per-pixel depth buffer, with the top-down map drawn beside the first-person view so the ray fan is visible as it sweeps.<br />
+**Result**: Interactive movement through a textured maze at 1024×512, sprites correctly occluded by walls and by each other with no depth sorting anywhere in the pipeline.<br />
+**Notable**: Sprites kept vanishing behind walls they were standing in front of. The depth buffer was a reused 32-bit colour buffer, so every distance silently truncated to whole grid cells (a wall at 3.97 units tested as 3). Storing depth as float fixed it, and the bug only ever surfaced when a sprite shared a cell with the wall behind it.
 
-`C++` &nbsp;`Unreal Engine` &nbsp;`Editor Tooling`
+`C++` &nbsp;`SDL3` &nbsp;`Real-Time Rendering`
 
-<a href="https://github.com/kads1024">Code</a> · <a href="#">Docs</a>
+<a href="https://github.com/kads1024/mini-raycaster">Code</a> · <a href="#"><b>Devlog</b></a>
 
 </td>
 <td width="50%" valign="top">
