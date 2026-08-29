@@ -106,7 +106,7 @@ struct Engineer {
 
 `C++` &nbsp;`SDL3` &nbsp;`Real-Time Rendering`
 
-<a href="https://github.com/kads1024/mini-raycaster">Code</a> · <a href="#"><b>Devlog</b></a>
+<a href="https://github.com/kads1024/mini-raycaster">Code</a> · <a href="https://kads1024.github.io/devlog/raycasting-a-maze-in-real-time"><b>Devlog</b></a>
 
 </td>
 <td width="50%" valign="top">
