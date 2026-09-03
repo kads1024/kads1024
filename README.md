@@ -61,40 +61,6 @@ struct Engineer {
 <tr>
 <td width="50%" valign="top">
 
-### 🔹 [CPU Raytracer (C++20)](https://github.com/kads1024/mini-raytracer)
-
-<img src="./assets/projects/raytracer.png" width="100%" alt="Raytracer render: four spheres with reflection and refraction over a checkerboard plane" />
-
-**Problem**: Understand raytracing well enough to derive it, not just make it compile.<br />
-**Built**: ~350-line CPU raytracer in C++20, no third-party libraries, on a templated N-dimensional vector library built with concepts.<br />
-**Result**: Diffuse and specular shading, hard shadows, recursive reflection and refraction at 1024×768.<br />
-**Notable**: Refraction derived from vector decomposition rather than copied, so total internal reflection emerges from the math instead of being special-cased.
-
-`C++`
-
-<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="https://kads1024.github.io/devlog/building-a-cpu-raytracer-from-scratch-in-c++20"><b>Devlog</b></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔹 [Procedural Explosion Raymarcher (C++20)](https://github.com/kads1024/mini-raymarcher)
-
-<img src="./assets/projects/raymarcher.png" width="100%" alt="Raymarcher render: a procedural explosion of fire and smoke generated from a single signed distance function" />
-
-**Problem**: Account for every line of 180 lines of someone else's terse C++ (the skill tutorials never teach).<br />
-**Built**: Sphere-traced SDF renderer reconstructed line by line from ssloy's tinykaboom, on the same templated vector library as the raytracer, with every formula left unevaluated and every constant justified.<br />
-**Result**: A procedural explosion at 640×480 with no meshes, no triangles, no acceleration structure. The entire scene is one 11-line distance function shaded from fBm value noise.<br />
-**Notable**: My vector library refused to compile the original's "smooth step" line, it turned out to be a dot product in disguise. Measuring the fallout showed ~60% of the noise function's interpolation weights clamp out of range, which is exactly what produces its signature texture.
-
-`C++`
-
-<a href="https://github.com/kads1024/mini-raymarcher">Code</a> · <a href="https://kads1024.github.io/devlog/rendering-an-explosion-with-one-function"><b>Devlog</b></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🔹 [Real-Time Raycaster (C++ / SDL3)](https://github.com/kads1024/mini-raycaster)
 
 <img src="./assets/projects/raycaster.gif" width="100%" alt="Raycaster demo: a textured maze rendered in first person beside a top-down map, the camera turning a full circle while the ray fan sweeps across the map" />
@@ -111,7 +77,43 @@ struct Engineer {
 </td>
 <td width="50%" valign="top">
 
+### 🔹 [CHIP-8 Emulator (C++17 / SDL3)](https://github.com/kads1024/emulator-chip8)
+
+<img src="./assets/projects/chip8.gif" width="100%" alt="CHIP-8 emulator demo: Tetris running at full speed on an emulated 64x32 monochrome display" />
+
+**Problem**: Build something whose correctness I *cannot see*. A subtly wrong renderer looks wrong; a subtly wrong CPU still plays Tetris.<br />
+**Built**: A CHIP-8 virtual machine in C++17 — 4 KB address space, 16 registers, 34 instructions dispatched through five function-pointer tables — plus an SDL3 layer that uploads the framebuffer as one streaming texture. The machine core has zero dependency on SDL, so every measurement below came from a 12-line headless harness.<br />
+**Result**: Scores 18/18 on the standard opcode conformance ROM and runs commercial-era ROMs at full speed.<br />
+**Notable**: Neither of those facts proves much. I instrumented *which handlers actually execute*: **6 of 34 never ran once** across the conformance ROM and 200,000 cycles of gameplay — and one of the six was flatly wrong, dereferencing its operand instead of using it. Four bytes of hand-written ROM turn it into a segfault by chaining two more latent bugs. Found by asking "what did it run", not "does it pass".
+
+`C++` &nbsp;`SDL3` &nbsp;`Emulation` &nbsp;`Systems`
+
+<a href="https://github.com/kads1024/emulator-chip8">Code</a> · <a href="https://kads1024.github.io/devlog/emulating-a-cpu-that-never-existed"><b>Devlog</b></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔹 [CPU Raytracer (C++20)](https://github.com/kads1024/mini-raytracer)
+
+<img src="./assets/projects/raytracer.png" width="100%" alt="Raytracer render: four spheres with reflection and refraction over a checkerboard plane" />
+
+**Problem**: Understand raytracing well enough to derive it, not just make it compile.<br />
+**Built**: ~350-line CPU raytracer in C++20, no third-party libraries, on a templated N-dimensional vector library built with concepts.<br />
+**Result**: Diffuse and specular shading, hard shadows, recursive reflection and refraction at 1024×768.<br />
+**Notable**: Refraction derived from vector decomposition rather than copied, so total internal reflection emerges from the math instead of being special-cased.
+
+`C++`
+
+<a href="https://github.com/kads1024/mini-raytracer">Code</a> · <a href="https://kads1024.github.io/devlog/building-a-cpu-raytracer-from-scratch-in-c++20"><b>Devlog</b></a>
+
+</td>
+<td width="50%" valign="top">
+
 ### 🎨 More Work
+
+A fourth deep dive — a **[procedural explosion raymarcher](https://github.com/kads1024/mini-raymarcher)** reconstructed line by line from ssloy's tinykaboom — is written up in full: <a href="https://kads1024.github.io/devlog/rendering-an-explosion-with-one-function">Rendering an Explosion with One Function</a>.
 
 Playable builds, jam entries, and prototypes live on itch.io — several are downloadable and take under a minute to try.
 
