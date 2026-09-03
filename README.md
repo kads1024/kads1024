@@ -48,7 +48,7 @@ struct Engineer {
 ## 🎮 Selected Work
 
 <!-- =====================================================================
-     TODO — THIS IS THE MOST IMPORTANT SECTION ON THE PAGE.
+     TODO: THIS IS THE MOST IMPORTANT SECTION ON THE PAGE.
      A hiring manager decides here. Rules:
        1. Add a GIF for each. Motion beats text every single time.
        2. Lead with the ENGINEERING problem, not the genre or story.
@@ -82,9 +82,9 @@ struct Engineer {
 <img src="./assets/projects/chip8.gif" width="100%" alt="CHIP-8 emulator demo: Tetris running at full speed on an emulated 64x32 monochrome display" />
 
 **Problem**: Build something whose correctness I *cannot see*. A subtly wrong renderer looks wrong; a subtly wrong CPU still plays Tetris.<br />
-**Built**: A CHIP-8 virtual machine in C++17 — 4 KB address space, 16 registers, 34 instructions dispatched through five function-pointer tables — plus an SDL3 layer that uploads the framebuffer as one streaming texture. The machine core has zero dependency on SDL, so every measurement below came from a 12-line headless harness.<br />
+**Built**: A CHIP-8 virtual machine in C++17 (4 KB address space, 16 registers, 34 instructions dispatched through five function-pointer tables) plus an SDL3 layer that uploads the framebuffer as one streaming texture. The machine core has zero dependency on SDL, so every measurement below came from a 12-line headless harness.<br />
 **Result**: Scores 18/18 on the standard opcode conformance ROM and runs commercial-era ROMs at full speed.<br />
-**Notable**: Neither of those facts proves much. I instrumented *which handlers actually execute*: **6 of 34 never ran once** across the conformance ROM and 200,000 cycles of gameplay — and one of the six was flatly wrong, dereferencing its operand instead of using it. Four bytes of hand-written ROM turn it into a segfault by chaining two more latent bugs. Found by asking "what did it run", not "does it pass".
+**Notable**: Neither of those facts proves much. I instrumented *which handlers actually execute*: **6 of 34 never ran once** across the conformance ROM and 200,000 cycles of gameplay, and one of the six was flatly wrong, dereferencing its operand instead of using it. Four bytes of hand-written ROM turn it into a segfault by chaining two more latent bugs. Found by asking "what did it run", not "does it pass".
 
 `C++` &nbsp;`SDL3` &nbsp;`Emulation` &nbsp;`Systems`
 
@@ -113,9 +113,9 @@ struct Engineer {
 
 ### 🎨 More Work
 
-A fourth deep dive — a **[procedural explosion raymarcher](https://github.com/kads1024/mini-raymarcher)** reconstructed line by line from ssloy's tinykaboom — is written up in full: <a href="https://kads1024.github.io/devlog/rendering-an-explosion-with-one-function">Rendering an Explosion with One Function</a>.
+A fourth deep dive (a **[procedural explosion raymarcher](https://github.com/kads1024/mini-raymarcher)** reconstructed line by line from ssloy's tinykaboom) is written up in full: <a href="https://kads1024.github.io/devlog/rendering-an-explosion-with-one-function">Rendering an Explosion with One Function</a>.
 
-Playable builds, jam entries, and prototypes live on itch.io — several are downloadable and take under a minute to try.
+Playable builds, jam entries, and prototypes live on itch.io = several are downloadable and take under a minute to try.
 
 <a href="https://kennysans37.itch.io">
   <img src="https://img.shields.io/badge/Browse%20playable%20builds-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io" />
@@ -182,7 +182,7 @@ Full case studies with breakdowns of the systems behind each project:
 | **Performance** | Profile first, then fix: allocation churn, cache misses, draw calls, GC pressure |
 | **Gameplay Networking** | Client prediction, server reconciliation, state replication, lag compensation |
 | **Tooling** | Custom editors and inspectors, build automation, pipelines that save the team hours |
-| **Low-Level C++** | RAII, move semantics, smart pointers, templates — and knowing when *not* to reach for them |
+| **Low-Level C++** | RAII, move semantics, smart pointers, templates (and knowing when *not* to reach for them) |
 | **Cross-Discipline** | Turning design intent into maintainable systems, shipping alongside artists and designers |
 
 ---
@@ -202,7 +202,7 @@ Full case studies with breakdowns of the systems behind each project:
 
 ## 🤝 Let's Connect
 
-I'm open to conversations about gameplay, engine, tools, and backend roles — and I answer every message.
+I'm open to conversations about gameplay, engine, tools, and backend roles, and I answer every message.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/ken-santos/">
@@ -222,7 +222,7 @@ I'm open to conversations about gameplay, engine, tools, and backend roles — a
 <br />
 
 <div align="center">
-  <i>Open to full-time, contract, and collaborative work — in games and well beyond them.</i>
+  <i>Open to full-time, contract, and collaborative work, in games and well beyond them.</i>
 </div>
 
 <div align="center">
